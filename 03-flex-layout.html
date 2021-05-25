@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title></title>
+<style>
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    .container {
+        width: 600px;
+        height: 200px;
+        border: 1px solid #000;
+        display: flex;
+    }
+    .item {
+        flex: 1;
+        border: 1px solid #000;
+        display: flex;
+        background: darkmagenta;
+    }
+    .item .box {
+        /* width: 50%;
+        height: 100%; */
+        flex: 1;
+        /* border: 1px solid #000; */
+    }
+    .item .box2 {
+        width: 50%;
+        height: 100%;
+        background: darkkhaki;
+        /* border: 5px solid #000; */
+    }
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">
+            <div class="box"></div>
+            <div class="box2"></div>
+        </div>
+        <div class="item">
+            <div class="box"></div>
+            <div class="box2"></div>
+        </div>
+        <div class="item">
+            <div class="box"></div>
+            <div class="box2"></div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title></title>
+<style>
+    header, footer {
+        background: chocolate;
+        height: 100px;
+    }
+    section {
+        display: flex;
+        height: 500px;
+    }
+    .left, .right {
+        background: darkmagenta;
+        flex: 1;
+    }
+    main {
+        background: darkolivegreen;
+        flex: 5;
+    }
+    @media (max-width:768px) {
+        section {
+            flex-direction: column;
+        }
+        main {
+            order: -1;
+        }
+    }
+</style>
+</head>
+<body>
+    <header>
+
+    </header>
+    <section>
+        <article class="left">
+            
+        </article>
+        <main>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum debitis, dicta distinctio et iure delectus fuga mollitia hic similique voluptatibus vel alias ut repudiandae nulla blanditiis at, repellendus molestiae minima?
+        </main>
+        <article class="right">
+
+        </article>
+    </section>
+    <footer>
+
+    </footer>
+</body>
+</html>
